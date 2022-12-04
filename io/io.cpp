@@ -142,10 +142,10 @@ void breaf() {
     printf("Regards, broou. My modes:\n");
     printf("%d\t - akinator\n",           AKINATOR);
     printf("%d\t - wiki\n",               WIKI);
-    printf("%d\t - difference\n",         DIFF);
+    printf("%d\t - difference\n",         DIFFERENCE);
     printf("%d\t - dump\n",               VISUAL);
-    printf("%d\t - get data\n",           GET);
-    printf("%d\t - save data\n",          SAVE);
+    printf("%d\t - get data\n",           DOWNLOAD);
+    printf("%d\t - save data\n",          UPLOAD);
     printf("%d\t - exit\n",               EXIT);
     printf("%d\t - help\n",               HELP);
 }
@@ -154,10 +154,10 @@ void help() {
     printf("My modes:\n");
     printf("%d\t - akinator.      I'm guessing something\n",                 AKINATOR);
     printf("%d\t - wiki.          I tell you about the object\n",            WIKI);
-    printf("%d\t - difference.    I telling the difference of 2 objects\n",  DIFF);
+    printf("%d\t - difference.    I telling the difference of 2 objects\n",  DIFFERENCE);
     printf("%d\t - visualization. Showing my data tree\n",                   VISUAL);
-    printf("%d\t - get data.      Downloading data from a file\n",           GET);
-    printf("%d\t - save data.     Uploading data to a file\n",               SAVE);
+    printf("%d\t - download data.      Downloading data from a file\n",      DOWNLOAD);
+    printf("%d\t - upload data.     Uploading data to a file\n",             UPLOAD);
     printf("%d\t - exit.          shutdown -program -now -rm -rf\n",         EXIT);
     printf("%d\t - help           this\n",                                   HELP);
 }

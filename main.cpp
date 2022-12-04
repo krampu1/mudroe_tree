@@ -3,9 +3,9 @@
 #include "tree/tree.h"
 #include "akinator/akinator.h"
 #include "wiki/wiki.h"
-#include "save/save.h"
-#include "get/get.h"
-#include "diff/diff.h"
+#include "upload/upload.h"
+#include "download/download.h"
+#include "difference/difference.h"
 #include "visual/visual.h"
 
 int main() {
@@ -24,17 +24,17 @@ int main() {
             case WIKI:
                 wiki(&tree);
                 break;
-            case DIFF:
-                diff(&tree);
+            case DIFFERENCE:
+                difference(&tree);
                 break;
             case VISUAL:
                 visual(&tree);
                 break;
-            case GET:
-                get(&tree);
+            case DOWNLOAD:
+                download(&tree);
                 break;
-            case SAVE:
-                save(&tree);
+            case UPLOAD:
+                upload(&tree);
                 break;
             case EXIT:
                 return 0;

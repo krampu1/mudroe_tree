@@ -1,5 +1,5 @@
 #include "../tree/tree.h"
-#include "get.h"
+#include "download.h"
 #include <stdlib.h>
 #include <stdio.h>
 #include <assert.h>
@@ -13,7 +13,7 @@ static void get_tree_from_file(Node *node, FILE *file);
 
 static void get_string(char *, FILE *file);
 
-void get(Node *tree) {
+void download(Node *tree) {
     del_node(tree->left);
     del_node(tree->right);
     init_node(tree);
